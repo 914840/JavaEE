@@ -4,7 +4,6 @@ import java.io.IOException;
 
 import javafx.application.Application;
 import javafx.stage.Stage;
-import model.PaintSquare;
 import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
@@ -33,7 +32,9 @@ public class Main extends Application {
 			// metoda w MainWindowController
 			mainWindowController.setMain(this);
 			mainWindowController.setPane(paneCube);
+			primaryStage.setTitle(" = app ver 1.0 = " );
 			primaryStage.setScene(scene);
+			
 			primaryStage.show();
 
 		} catch (IOException e) {
